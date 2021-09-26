@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import authRoute from './auth'
+import homeRoute from './home'
 
 Vue.use(Router)
 
@@ -9,15 +11,9 @@ const routerInstance = new Router({
   linkActiveClass: 'active',
   scrollBehavior: () => ({ y: 0 }),
   routes:[
-    {
-      path:"/",
-      component: page('home/index.vue')
-    }
+    ...authRoute,
+    ...homeRoute,
   ]
 })
-
-function page (path) {
-  return () => import(/* webpackChunkName: '' */ `~/pages/${path}`).then(m => m.default || m)
-}
 
 export default routerInstance

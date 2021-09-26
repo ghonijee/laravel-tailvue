@@ -11,21 +11,12 @@
         "lint": "eslint --fix --ext .js,.vue resources/js"
     },
     "devDependencies": {
-        "autoprefixer": "^10.3.5",
-        "axios": "^0.21",
-        "laravel-mix": "^6.0.6",
-        "laravel-mix-versionhash": "^2.0.1",
-        "lodash": "^4.17.19",
-        "postcss": "^8.3.8",
-        "tailwindcss": "^2.2.15",
-        "sass": "^1.37.5",
-        "resolve-url-loader": "^4.0.0",
-        "vue-loader": "^15.9.8",
-        "vue-template-compiler": "^2.6.14",
         "@babel/core": "^7.12.3",
         "@babel/eslint-parser": "^7.12.1",
         "@babel/plugin-syntax-dynamic-import": "^7.8.3",
         "@babel/preset-env": "^7.12.1",
+        "autoprefixer": "^10.3.5",
+        "axios": "^0.21",
         "cross-env": "^7.0.2",
         "eslint": "^7.12.1",
         "eslint-config-standard": "^16.0.1",
@@ -33,7 +24,16 @@
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.0.2",
-        "eslint-plugin-vue": "^7.1.0"
+        "eslint-plugin-vue": "^7.1.0",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-versionhash": "^2.0.1",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.8",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.37.5",
+        "tailwindcss": "^2.2.15",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.3.3",
@@ -41,10 +41,10 @@
         "sass-loader": "^12.1.0",
         "vue": "^2.6.14",
         "vue-axios": "^3.2.5",
-        "vue-router": "^3.5.2",
-        "vuex": "^3.6.2",
         "vue-i18n": "^8.22.1",
         "vue-meta": "^2.4.0",
+        "vue-router": "^3.5.2",
+        "vuex": "^3.6.2",
         "vuex-router-sync": "^5.0.0"
     }
 }
